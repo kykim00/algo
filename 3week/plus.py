@@ -4,6 +4,7 @@ def solution(absolutes, signs):
         # sign is true
         if sign:
             answer += num
+        # sign is false
         else:
             answer -= num
     return answer
