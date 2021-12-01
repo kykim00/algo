@@ -7,7 +7,6 @@ var nums = [100, 200, 300, 400, 500];
 // 1. 배열 길이 지정
 function a() {
     nums.length = 3;
-    console.log(nums);
 }
 
 // 2. pop으로 제거
@@ -26,3 +25,5 @@ function c() {
 function d() {
     let filtered = nums.filter((element) => element !== 400 && element !== 500);
 }
+
+console.log(nums);
