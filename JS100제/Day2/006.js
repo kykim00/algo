@@ -8,3 +8,4 @@
 5)  undefined
 
 // 2) 1   
+// NaN, 0, undefined, false, null, ""  은 false, 나머지는 전부 true
